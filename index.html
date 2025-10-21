@@ -1064,9 +1064,10 @@
         if (!nav.contains(event.target) && !toggle.contains(event.target)) {
             nav.classList.remove("active");
         }
-    });
+   });
 
-    const sections = document.querySelectorAll("section");
+  //  navbar is highlight active section *
+    const sections = document.querySelectorAll("section");  
     const navLinks = document.querySelectorAll(".nav-links a");
     // Function to update active navbar link based on scroll position
     function changeActiveNav() {
@@ -1158,7 +1159,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="#education">Education</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
-            <a href="#Certifications">Certifications</a>
+            <a href="#certifications">Certifications</a>
             <a href="#testimonials">Testimonials</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -1295,9 +1296,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>                
             </div>
     </section>
-    <section id="projects" class="projects-section">
+    <section id="projects" class="projects-section"> <!-- Header Section -->
         <h2 class="text-center">The Projects That Defined My Portfolio</h2>
-        <div class="projects-container">
+        <div class="projects-container"> 
             <div class="project" id="project-1">
                 <span class="rank">1</span>
                 <div class="project-card">
