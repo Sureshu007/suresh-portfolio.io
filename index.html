@@ -922,6 +922,181 @@
   }
 }
 
+/* mobile view start */
+/* =======================
+   GLOBAL MOBILE FIXES
+======================= */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+/* =======================
+   NAVBAR FIX
+======================= */
+@media (max-width: 768px) {
+  .navbar {
+    top: 10px;
+    padding: 10px 16px;
+  }
+
+  .nav-links {
+    right: 0;
+    width: 100%;
+    top: 60px;
+    text-align: center;
+  }
+
+  .nav-links a {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+}
+
+/* =======================
+   HERO SECTION FIX
+======================= */
+@media (max-width: 768px) {
+  #hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 120px 16px 40px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content h2 {
+    font-size: 20px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 280px;
+    font-size: 16px;
+  }
+}
+
+/* =======================
+   ABOUT SECTION FIX
+======================= */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 40px 16px;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* =======================
+   EDUCATION & EXPERIENCE FIX
+======================= */
+@media (max-width: 768px) {
+  .education-section {
+    height: auto;
+    padding: 60px 16px;
+  }
+
+  .education-content {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .education-list li {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+/* =======================
+   PROJECTS FIX (NO SIDE CUT)
+======================= */
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 20px 0;
+  }
+
+  .project {
+    width: 260px;
+  }
+
+  .rank {
+    font-size: 8rem;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* =======================
+   SKILLS GRID FIX
+======================= */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skill-item.big {
+    grid-column: span 1;
+    font-size: 16px;
+  }
+}
+
+/* =======================
+   TESTIMONIAL FIX
+======================= */
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 90vw;
+    min-height: auto;
+  }
+
+  .testimonial-content p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+/* =======================
+   CONTACT FIX
+======================= */
+@media (max-width: 768px) {
+  .form-container {
+    min-width: 100%;
+  }
+
+  .contact-links {
+    text-align: center;
+  }
+
+  .linkedin-link,
+  .email-link,
+  .whatsapp-link {
+    justify-content: center;
+  }
+}
+/* mobile view end */
+
 
 /* Footer */
 .footer {
