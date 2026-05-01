@@ -874,7 +874,7 @@
   font-size: 1.5rem;
 }
 
-.linkedin-link, .email-link, .whatsapp-link {
+.linkedin-link, .email-link, .whatsapp-link, .github-link {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -893,6 +893,11 @@
   font-size: 1.5rem;
 }
 
+.github-link::before {
+  content: "🐙"; /* octopus emoji (GitHub vibe) */
+  font-size: 1.5rem;
+}
+
 .email-link::before {
   content: "📧";
   font-size: 1.5rem;
@@ -903,7 +908,7 @@
   font-size: 1.5rem;
 }
 
-.linkedin-link:hover, .email-link:hover, .whatsapp-link:hover {
+.linkedin-link:hover, .email-link:hover, .whatsapp-link:hover, .github-link:hover {
   background: rgba(255, 255, 255, 0.2);
   text-decoration: none;
   transform: scale(1.05);
@@ -917,7 +922,7 @@
   .form-container {
       min-width: 100%;
   }
-  .linkedin-link, .email-link, .whatsapp-link {
+  .linkedin-link, .email-link, .whatsapp-link, .github-link {
       font-size: 1.2rem;
   }
 }
@@ -1091,7 +1096,8 @@
 
   .linkedin-link,
   .email-link,
-  .whatsapp-link {
+  .whatsapp-link,
+  .github-link {
     justify-content: center;
   }
 }
@@ -1774,6 +1780,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a href="https://www.linkedin.com/in/suresh-balla1312/" target="_blank" class="linkedin-link">LinkedIn</a>
                 <a href="mailto:sureshballa007@gmail.com" class="email-link">Email Me</a>
                 <a href="https://wa.me/919959702066?text=Hello%20Suresh" class="whatsapp-link">Whatsapp</a>
+                <a href="https://github.com/Sureshu007" class="github-link">GitHub</a>
             </div>
         </div>
     </section>
